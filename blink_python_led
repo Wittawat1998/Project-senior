@@ -17,6 +17,7 @@ os.system(blueled_trigger)
 os.system(greenled_trigger)
 os.system(blueled_off)
 loop_count = 0;
+
 while(True):
 
         if loop_count <= parameter:

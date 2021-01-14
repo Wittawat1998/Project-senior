@@ -9,7 +9,6 @@ greenled_on = 'sudo sh -c "echo 1 > /sys/class/leds/green:ph07:led4/brightness"'
 greenled_off = 'sudo sh -c "echo 0 > /sys/class/leds/green:ph07:led4/brightness"'
 os.system(greenled_trigger)
 loop_count = 0;
-
 def display_led_off():
         #os.system(blueled_off)
         os.system(greenled_off)
